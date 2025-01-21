@@ -126,7 +126,7 @@ main h2 {
     text-shadow: 2px 5px 5px #010101;
 }
 
-main button {
+.button-video {
     position: absolute;
     top: 88%;
     left: 10%;
@@ -147,7 +147,7 @@ main button {
 
 }
 
-button:hover {
+.button-video:hover {
     background-color: #F02E0E;
     color: #EAEAEA;
     transform: scale(1.1);
@@ -277,7 +277,7 @@ iframe {
     background-color: black;
 }
 
-.icon-capacete {
+.icon-carro-f1 {
     height: 80px;
     position: fixed;
     right: 0;
@@ -285,9 +285,11 @@ iframe {
     margin-right: 1.625rem;
     margin-bottom: 1.625rem;
     transform: scale(1.25);
-    animation: balanco 5s linear infinite;
+    animation: balanco 4s linear infinite;
+    cursor: pointer;
 
 }
+
 
 @keyframes balanco {
     0% {

@@ -1,6 +1,7 @@
 
 const cardFrame = document.querySelector("iframe")
 const cardMask = document.querySelector(".card-mask")
+console.log(cardFrame).controls
 
 function visibleFrame() {
      cardFrame.style.left = "480px"
@@ -10,6 +11,7 @@ function visibleFrame() {
 cardMask.addEventListener("click", function () {
      cardFrame.style.left = "-560px"
      cardMask.style.visibility = "hidden"
+     // cardFrame.muted()
 
 })
 
